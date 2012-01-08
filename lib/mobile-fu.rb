@@ -125,4 +125,4 @@ end
 
 ActionController::Base.send :include, ActionController::MobileFu
 ActionView::Base.send :include, MobileFu::Helper
-ActionView::Base.send :alias_method_chain, :stylesheet_link_tag, :mobilization
+# ActionView::Base.send :alias_method_chain, :stylesheet_link_tag, :mobilization
